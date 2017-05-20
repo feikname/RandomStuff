@@ -12,6 +12,7 @@ bind F7 "sm_mirror"         // Kinky stuff
 bind F8 "timeleft"          // Display the map remaining time in chat
 bind F9 "sm_revote"         // Make the current vote happen again
 
+bind F "say rtd"            // Attempt to activate the "roll the dice" effect
 bind J "hale_hp"            // Display the hale hp for everyone (vsh/ff2)
 bind B "sm_colors"          // Open change player color menu (sm_colorme alternative)
 bind N "sm_taunts"          // Open taunt menu
