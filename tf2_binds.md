@@ -3,7 +3,7 @@ My tf2 binds.
 
 ```text
 bind F1 "sm_explarrowsme"   // Toggle explosive projectiles
-bind F2 "sm_buildingcolors" // Change color of engineer buildings (not tested with rtd buildings)
+bind F2 "sm_buildingcolors" // Change color of engineer buildings (does not work with rtd buildings)
 bind F3 "sm_resizemyhands"  // Open resize menu for hands 
 bind F4 "sm_resizemyhead"   // Open resize menu for head
 bind F5 "sm_resizemytorso"  // Open resize menu for torso
