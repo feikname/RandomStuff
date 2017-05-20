@@ -1,5 +1,5 @@
 ## ZM BRASIL #06 (FF2) - Console commands
-All taken from `sm_help 1` to sm_help 15` at May 20, 2017.
+All taken from `sm_help 1` to `sm_help 15` at May 20, 2017.
 
 ```text
 SourceMod Help: Command Information
