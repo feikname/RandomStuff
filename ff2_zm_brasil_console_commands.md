@@ -1,13 +1,186 @@
 ## ZM BRASIL #06 (FF2) - Console commands
-All taken from `sm_help 1` to `sm_help 15` at May 20, 2017.
+All taken from `sm_help 1` to `sm_help 15` at June 28, 2017.
 
+`sm` output:
 ```text
-SourceMod Help: Command Information
-[001] +jetpack - No description available
+SourceMod 1.9.0.6039, by AlliedModders LLC
+To see running plugins, type "sm plugins"
+To see credits, type "sm credits"
+Visit http://www.sourcemod.net/
+```
+
+`sm plugins` output: (until `sm plugins 154`)
+```text
+ "Sound Commands" (1.8.0.5967) by AlliedModders LLC
+ "Freak Fortress 2: Boss Preferences" (1.04) by SHADoW NiNE TR3S (Base code from RainBolt Dash, Powerlord and frog)
+ "Goomba Stomp TF2" (1.1.0) by Flyflo
+ "Fun Commands" (1.8.0.5967) by AlliedModders LLC
+ "Freak Fortress 2: Who's that current boss!" (1.00) by Koishi
+ "SMAC Aimbot Detector" (0.8.6.0) by SMAC Development Team
+ "Loja ZMBRASIL - TRADE" (1.0) by ZMBR SOUL
+ "Vote Mute/Vote Silence" (1.0.105) by <eVa>Dog/AlliedModders LLC
+ "[TF2] TF2Attributes" (1.1.1) by FlaminSarge
+ "Freak Fortress 2 AdminMenu" (1.0.1) by CooliMC
+ "[TF2] Halloween Footprints" (1.0) by Oshizu
+ "[TF2] Building Hats" (1.8) by Pelipoika
+ "[TF2] DSP Effects" (1.1) by A.I, Hurp Durp
+ "Efeito Unusual ZMBRASIL" (1.0) by ZMBR SOUL
+ "inspectall.smx" inspectall.smx
+ "Evil Admin - Health" (1.0.104) by <eVa>Dog
+ "In-game vip Menu" (0.9) by chundo
+ "TF2 Set Speed" (1.3.1) by Tylerst
+ "[Tf2] Third Person Cookies!" (1.3.5) by Friagram
+ "SourceBans: Bans" (2.0.0-dev) by GameConnect
+ "Basic Commands" (1.8.0.5967) by AlliedModders LLC
+ "Change Team Fix" (1.0) by Friagram
+ "Default Map Changer" (2.5) by TigerOx
+ "Basic Comm Control" (1.8.0.5967) by AlliedModders LLC
+ "Killstreak" (1.8) by Dr_Knuckles / Kredit
+ "[TF2] Taunt Menu" (1.07) by FlaminSarge, Nighty, xCoderx, Crow
+ "Taunt Crits" (2.1) by HeMe3iC
+ "[ANY] Automatic Steam Update" (1.9.1) by Dr. McKay
+ "AFK Manager" (3.4.3) by Rothgar
+ "NativeVotes Basic Commands" (1.0) by Powerlord and AlliedModders LLC
+ "Freak Fortress 2: Boss Toggle" (1.0.1) by frog
+ "MapChooser Extended" (1.10.0) by Powerlord, Zuko, and AlliedModders LLC
+ "Map Nominations Extended" (1.10.0) by Powerlord and AlliedModders LLC
+ "NativeVotes" (0.8.3) by Powerlord
+ "Basic Chat" (1.8.0.5967) by AlliedModders LLC
+ "[TF2] Explosive Arrows" (1.31) by Tak (Chaosxk)
+ "[ANY] Zephyrus Gift Grab - Test Plugin" (1.0) by Zephyrus
+ "Loja ZMBRASIL" (1.1) by ZMBR SOUL
+ "AutoRestart" (1.4) by MikeJS and modified by SHARIVAN from ZMBR Clan
+ "Simple Chat Processor (Redux)" (1.1.5) by Simple Plugins, Mini
+ "Nextmap" (1.8.0.5967) by AlliedModders LLC
+ "[TF2] Fake Item Messages" (1.5.0) by DarthNinja
+ "SM File/Folder Downloader and Precacher" (1.4) by SWAT_88
+ "SMAC Command Monitor" (0.8.6.0) by SMAC Development Team
+ "Freak Fortress 2: Boss Tweaks" (1.0) by frog
+ "Banned Sprays" (0.0.3.8) by TnTSCS aka ClarkKent
+ "[TF2] Pyro Airblast Jump" (1.2.2) by Leonardo
+ "[Gifts] Test" (1.0) by FrozDark (HLModders LLC)
+ "Freak Fortress 2: AFK Boss Slayer" (1.0.2) by frog
+ "Evil Admin - Vision" (1.0.106) by <eVa>Dog
+ "[TF2] Colored Engineer Buildings" (1.1) by Oshizu
+ "[TF2Items] Give Weapon" (3.14159) by FlaminSarge (orig by asherkin)
+ "Admin Menu" (1.8.0.5967) by AlliedModders LLC
+ "High Ping Kicker - Lite Edition" (1.0.0.1) by Liam
+ "tMedicRubber" (0.2.0) by Thrawn
+ "Tidy Chat" (0.5) by linux_lover
+ "Player Trails" (3.0.2) by Twisted|Panda
+ "Immunity Reserve Slots [CONNECT]" (2.0.7) by Jamster
+ "Freak Fortress 2: Boss Selection" (1.10) by RainBolt Dash, Powerlord, SHADoW NiNE TR3S
+ "Rock The Vote Extended" (1.10.0) by Powerlord and AlliedModders LLC
+ "SMAC Rcon Locker" (0.8.6.0) by SMAC Development Team
+ "SM Franug Player Colors" (1.3) by Franc1sco franug
+ "[Source 2013] Custom Chat Colors" (3.1.0) by Dr. McKay
+ "Projectile Particles" (1.1.0) by 11530
+ "Fun Commands X" (2.4) by Spazman0 and Arg!
+ "Spray Tracer" (5.8a) by Nican132, CptMoore, Lebson506th
+ "Basic Votes" (1.8.0.5967) by AlliedModders LLC
+ "[TF2] Model Manager" (1.0.4) by FlaminSarge (based on Damizean's TF2 Equipment Manager)
+ "PermaMute" (0.1) by Ryan "FLOOR_MASTER" Mannion
+ "gameME Plugin" (4.4.2) by TTS Oetzel & Goerz GmbH
+ "TF2: Roll the Dice" (0.4.4.2) by linux_lover (abkowald@gmail.com)
+ "Fun Votes" (1.8.0.5967) by AlliedModders LLC
+ "Evil Admin - Pimp Slap" (1.0.102) by <eVa>Dog
+ "[ANY] Gifts" (2.3) by Zephyrus
+ "radio.smx" radio.smx
+ "Thirdperson | Mirrow Mode" (1.11) by Zephyrus
+ "TF2 Class Restrictions" (0.6) by Tsunami
+ "Evil Admin - Rocket" (1.0.110) by <eVa>Dog
+ "Pyro Taunt Street Fighter" (1.2) by TonyBaretta
+ "Client Preferences" (1.8.0.5967) by AlliedModders LLC
+ "Player Commands" (1.8.0.5967) by AlliedModders LLC
+ "SMAC AutoTrigger Detector" (0.8.6.0) by SMAC Development Team
+ "Anti-Flood" (1.8.0.5967) by AlliedModders LLC
+ "The Amplifier" (2.4) by RainBolt Dash (plugin); Jumento M.D. (idea & model); Naris and FlaminSarge (helpers)
+ "SourceBans: Admins" (2.0.0-dev) by GameConnect
+ "Advertisements" (0.6) by Tsunami
+ "Basic Info Triggers" (1.8.0.5967) by AlliedModders LLC
+ "Admin Help" (1.8.0.5967) by AlliedModders LLC
+ "[TF2Items] Manager" (1.4.1) by Damizean & Asherkin
+ "SMAC Client Protection" (0.8.6.0) by SMAC Development Team
+ "Admin File Reader" (1.8.0.5967) by AlliedModders LLC
+ "SourceBans" (2.0.0-dev) by GameConnect
+ "Goomba Stomp Core" (2.0.2) by Flyflo
+ "[VSH/FF2]: Streaker" (1.0) by SHADoW NiNE TR3S
+ "Halloween Boss Player Kill Block" (1.1.0) by ReFlexPoison
+ "SourceMod Anti-Cheat" (0.8.6.0) by SMAC Development Team
+ "Resize Players" (1.5.1) by 11530
+ "Updater" (1.2.2) by GoD-Tony
+ "Freak Fortress 2: Bombinomicon" (1.0) by Deathreus
+ "Freak Fortress 2" (1.10.14) by Rainbolt Dash, FlaminSarge, Powerlord, the 50DKP team
+ "Freak Fortress 2: TFConditions" (1.1) by SHADoW NiNE TR3S
+ "Simple YouTube Music Player" (1.2.3) by namazso
+ "Freak Fortress 2: CBS's abilitys from VSH" by M7
+ "Freak Fortress 2: Halloween 2013 Boss Pack" (1.3) by Friagram
+ "Freak Fortress 2: Improved Saxton" (1.0.5) by sarysa
+ "Freak Fortress 2: Drain Over Time Platform" (1.0.0) by sarysa
+ "Freak Fortress 2: Boss Tweaks" (1.0) by frog
+ "FF2 Ability: Customazible Clipless Weapons" by M7
+ "Freak Fortress 2: Powerlord Abilities" (1.0) by Powerlord
+ "Freak Fortress 2: Guts Boss Pack" by Friagram
+ "Freak Fortress 2: Eyebot Ability Pack" (1.1) by Friagram
+ "Freak Fortress 2: SHADoW93's Abilities Pack" (1.18) by SHADoW NiNE TR3S
+ "Freak Fortress 2: The Witch Doctor" (1.0) by Deathreus
+ "Freak Fortress 2: Boss Item Pickup" (1.0) by Friagram
+ "Freak Fortress 2: ServerCommandRage" (1.1) by frog
+ "Freak Fortress 2: Rage Model" (0.5) by frog
+ "Freak Fortress 2: Default DOTs" (1.0.0) by sarysa
+ "FF2 Package - Mokou + Radigan Conagher" by EP
+ "Freak Fortress 2: Olaf's ability" (1.0) by SHADoWNiNETR3S
+ "Freak Fortress 2: Rock Ability" (1.2) by Deathreus, coding snippets from Darthmule, Flamin Sarge, and Otokiru
+ "Freak Fortress 2: sarysa's public mods, second pack" (1.0.2) by sarysa
+ "Freak Fortress 2: ModelAbility" (0.3.0) by Naydef
+ "Freak Fortress 2: Abilities of 1st set" (1.06 beta 2) by RainBolt Dash
+ "Freak Fortress 2: Replace Projectile" (1.0.2) by frog, friagram
+ "Freak Fortress 2: Gray Mann" (1.0) by SHADoW NiNE TR3S
+ "Freak Fortress 2: sarysa's public mods, third pack" (1.0.1) by sarysa
+ "Freak Fortress 2: Darthmule's Abilities" by Darthmule
+ "Freak Fortress 2: Default Abilities" (1.07 beta 5) by RainBolt Dash
+ "Freak Fortress 2: Monochromatic" (1.00) by Koishi
+ "Freak Fortress 2: Frozen Abilities for Elsa and Olaf" (1.0) by SHADoWNiNETR3S
+ "Freak Fortress 2: Overlay on Kill" (1.4) by Jery0987, RainBolt Dash, SHADoW NiNE TR3S
+ "Freak Fortress 2: Sound On Kill" (1.0) by Deathreus
+ "Freak Fortress 2: Saxtoner Ability Pack" (1.6.6) by Otokiru, updated by SHADow93
+ "freaks/ff2_octogonapus.ff2" freaks/ff2_octogonapus.ff2
+ "Misc Stuff" (1.0) by M7
+ "Freak Fortress 2: Phat Rages" (0.9.4) by frog,Kemsan,Peace Maker,LeGone,RainBolt Dash
+ "Freak Fortress 2: SHADoW93's Boss Abilities" (1.07) by SHADoW NiNE TR3S
+ "Freak Fortress 2: Timed Weapon Rage" (1.0) by Deathreus
+ "Freak Fortress 2: New Rages" by M7
+ "Freak Fortress 2: Damage Tracker" (1.0) by MasterOfTheXP
+ "Freak Fortress 2: Fog Effects" (1.04) by Koishi
+ "FF2 Zer0's Sniper Rage" by Blinx + Otokiru
+ "Freak Fortress 2: Bloodriders Subplugin" by M7
+ "Freedom Abilities" (1.0.0) by WildCard65
+ "Freak Fortress 2: Deathreus Boss Pack" (1.7) by Deathreus
+ "Freak Fortress 2: Player Climb" (1.3) by Nanochip
+ "Freak Fortress 2: Completely Stripped Version of Darth's Ability Pack Fix" (1.2) by Darthmule, edit by Deathreus
+ "Freak Fortress 2: WC3 Ability Pack" (1.2.3) by Otokiru, SHADoW NiNE TR3S
+ "Freak Fortress 2: special_noanims" (1.9.2) by RainBolt Dash
+ "Nightmare Sniper's Ability" by M7
+ "Freak Fortress 2: Easter Abilities" (1.10.7) by Powerlord and FlaminSarge, updated by Wliu
+ "Freak Fortress 2: Dynamic Defaults" (1.3.2) by sarysa, with a small amount of code by RainBolt Dash
+ "Freak Fortress 2: Halloween 2014 Framework" by Friagram
+ "Freak Fortress 2: Move Speed" (1.3.3) by SHADoW NiNE TR3S
+ "Freak Fortress 2: rage_overlay" (1.9.2) by Jery0987, RainBolt Dash
+ "Freak Fortress 2: Server Wide Rage Sound" (1.2) by Deathreus
+ "FF2 Highlander Rage" by Blinx + Otokiru
+ "Freak Fortress 2: Mimicer's passive ability" (1.0) by Kah!
+ "Freak Fortress 2: Pull" (1.0.0) by Blinx
+ "Freak Fortress 2: skeleton king" (1.0.0) by DaNetNavern0
+```
+
+`sm_help` output:
+```text
+Ajuda do SourceMod: Informações sobre comandos
 [002] -jetpack - No description available
+[001] +jetpack - No description available
 [003] amp - Select 2nd engineer's building 
-[004] amp_help - Show info about Amplifier
 [005] amplifier - Select 2nd engineer's building 
+[004] amp_help - Show info about Amplifier
 [006] em - Shows the model manager menu
 [007] equip - Shows the model manager menu
 [008] equipmodels - Shows the model manager menu
@@ -76,7 +249,7 @@ SourceMod Help: Command Information
 [065] halenext - No description available
 [066] haleresetpoints - No description available
 [067] haletoggle - Allows players to enable/disable being in the boss queue
-[068] halevoice - No description available
+[068] halevoice - No description available[068] halevoice - No description available
 [069] listmaps - No description available
 [070] mm - Shows the model manager menu
 
@@ -119,50 +292,46 @@ SourceMod Help: Command Information
 [104] sm_nominate - No description available
 [105] sm_offer - No description available
 [106] sm_particles - Toggles a client's projectile particles on/off
-[107] sm_pong - Start a new Pong game.
-[108] sm_pquit - Surrender from your current pong game.
-[109] sm_radio - No description available
-[110] sm_radiooff - No description available
+[107] sm_radio - No description available
+[108] sm_radiooff - No description available
+[109] sm_rerollhat - No description available
+[110] sm_resetplayer - No description available
 
-[111] sm_rerollhat - No description available
-[112] sm_resetplayer - No description available
-[113] sm_resizemyhands - Toggles a client's hand size.
-[114] sm_resizemyhead - Toggles a client's head size.
-[115] sm_resizemytorso - Toggles a client's torso size.
-[116] sm_resizeresetme - Resets a client's size.
-[117] sm_revote - No description available
-[118] sm_rocketme -  a fun way to suicide
-[119] sm_rtv - No description available
-[120] sm_searchcmd - Searches SourceMod commands
+[111] sm_resetplayer - No description available
+[112] sm_resizemyhands - Toggles a client's hand size.
+[113] sm_resizemyhead - Toggles a client's head size.
+[114] sm_resizemytorso - Toggles a client's torso size.
+[115] sm_resizeresetme - Resets a client's size.
+[116] sm_revote - No description available
+[117] sm_rocketme -  a fun way to suicide
+[118] sm_rtv - No description available
+[119] sm_searchcmd - Searches SourceMod commands
+[120] sm_settings - No description available
 
-[121] sm_searchcmd - Searches SourceMod commands
-[122] sm_settings - No description available
-[123] sm_shop - No description available
-[124] sm_snake - Start a snake minigame session.
-[125] sm_store - No description available
-[126] sm_store_custom_credits - No description available
-[127] sm_taunt - Taunt Menu
-[128] sm_taunts - Taunt Menu
-[129] sm_tetris - Opens the tetris minigame.
-[130] sm_thirdperson - Usage: sm_thirdperson
+[121] sm_store - No description available
+[122] sm_store_custom_credits - No description available
+[123] sm_taunt - Taunt Menu
+[124] sm_taunts - Taunt Menu
+[125] sm_thirdperson - Usage: sm_thirdperson
+[126] sm_tp - No description available
+[127] sm_trade - No description available
+[128] sm_vip - Display the vip menu.
+[129] sm_voicefx - No description available
+[130] sm_votemute - sm_votemute <player> 
 
-[131] sm_tp - No description available
-[132] sm_trade - No description available
-[133] sm_vip - Display the vip menu.
-[134] sm_voicefx - No description available
-[135] sm_votemute - sm_votemute <player> 
-[136] sm_voteslay - sm_voteslay <player>
-[137] sm_yt - No description available
-[138] sm_yt_full - No description available
-[139] sm_yt_stop - No description available
-[140] sm_yt_to - No description available
+[131] sm_votemute - sm_votemute <player> 
+[132] sm_voteslay - sm_voteslay <player>
+[133] sm_yt - No description available
+[134] sm_yt_full - No description available
+[135] sm_yt_stop - No description available
+[136] sm_yt_to - No description available
+[137] tauntcrits_help - No description available
+[138] tauntcrits_info - No description available
+[139] tf2items_disable - No description available
+[140] tf2items_enable - No description available
 
-[141] tauntcrits_help - No description available
-[142] tauntcrits_info - No description available
-[143] tf2items_disable - No description available
-[144] tf2items_enable - No description available
-[145] tf_models - Shows the model manager menu
-[146] timeleft - No description available
-[147] tp - Usage: sm_thirdperson
-[148] voicemenu - No description available
+[141] tf_models - Shows the model manager menu
+[142] timeleft - No description available
+[143] tp - Usage: sm_thirdperson
+[144] voicemenu - No description available
 ```
