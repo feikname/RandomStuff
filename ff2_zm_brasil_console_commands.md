@@ -249,7 +249,7 @@ Ajuda do SourceMod: Informações sobre comandos
 [065] halenext - No description available
 [066] haleresetpoints - No description available
 [067] haletoggle - Allows players to enable/disable being in the boss queue
-[068] halevoice - No description available[068] halevoice - No description available
+[068] halevoice - No description available
 [069] listmaps - No description available
 [070] mm - Shows the model manager menu
 
