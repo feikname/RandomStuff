@@ -2,7 +2,7 @@
 My tf2 binds.
 
 ```text
-bind F1 "sm_explarrowsme"   // Toggle explosive projectiles
+bind F1 "sm_explarrowsme"   // Toggle explosive projectiles (not working currently :/)
 bind F2 "sm_buildingcolors" // Change color of engineer buildings (does not work with rtd buildings)
 bind F3 "sm_resizemyhands"  // Open resize menu for hands 
 bind F4 "sm_resizemyhead"   // Open resize menu for head
@@ -16,4 +16,7 @@ bind F "say rtd"            // Attempt to activate the "roll the dice" effect
 bind J "hale_hp"            // Display the hale hp for everyone (vsh/ff2)
 bind B "sm_colors"          // Open change player color menu (sm_colorme alternative)
 bind N "sm_taunts"          // Open taunt menu
+
+bind / "sm_me FFFFFF: FFFFFF( ͡° ͜ʖ ͡°)" // Circumvent lenny restriction
+bind \ "sm_me FFFFFF: FFFFFF¯\_(ツ)_/¯" // Circumvent lenny restriction
 ```
