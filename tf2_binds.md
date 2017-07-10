@@ -17,6 +17,9 @@ bind J "hale_hp"            // Display the hale hp for everyone (vsh/ff2)
 bind B "sm_colors"          // Open change player color menu (sm_colorme alternative)
 bind N "sm_taunts"          // Open taunt menu
 
+bind KP_PGUP "sm_tp"    // Use first-person view (keypad key 8)
+bind KP_UPARROW "sm_fp" // Use third-person view (keypad key 9)
+
 bind / "sm_me FFFFFF: FFFFFF( ͡° ͜ʖ ͡°)"   // Circumvent lenny restriction
 bind \ "sm_me FFFFFF: FFFFFF¯\_(ツ)_/¯" // Circumvent lenny restriction
 ```
