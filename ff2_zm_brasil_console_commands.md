@@ -1,5 +1,5 @@
 ## ZM BRASIL #06 (FF2) - Console commands
-All taken from `sm_help 1` to `sm_help 15` at July 13, 2017.
+All taken from `sm_help 1` to `sm_help 14` at July 13, 2017.
 
 `sm` output:
 ```text
@@ -308,4 +308,13 @@ Visit http://www.sourcemod.net/
 [128] sm_yt - No description available
 [129] sm_yt_full - No description available
 [130] sm_yt_stop - No description available
+
+[131] tauntcrits_help - No description available
+[132] tauntcrits_info - No description available
+[133] tf2items_disable - No description available
+[134] tf2items_enable - No description available
+[135] tf_models - Shows the model manager menu
+[136] timeleft - No description available
+[137] tp - Usage: sm_thirdperson
+[138] voicemenu - No description available
 ```
