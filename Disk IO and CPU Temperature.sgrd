@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet locked="0" interval="0.05" rows="3" columns="1" title="Disk I/O &amp; CPU Temp.">
+ <host port="-1" shell="" name="localhost" command="ksysguardd"/>
+ <display vDistance="30" columnSpan="1" title="# of I/Os currently in progress" vLines="1" row="0" labels="1" fontSize="8" showUnit="0" autoRange="1" svgBackground="" manualRange="1" version="1" stacked="0" class="FancyPlotter" min="0" max="100" hScale="1" column="0" rowSpan="1" unit="" vScroll="1" hLines="1">
+  <beam color="0xff0057ae" sensorType="integer" hostName="localhost" sensorName="disk/sda_(8:0)/ioqueue"/>
+ </display>
+ <display vDistance="30" columnSpan="1" title="CPU temperature" vLines="1" row="1" labels="1" fontSize="8" showUnit="0" autoRange="1" svgBackground="" manualRange="1" version="1" stacked="0" class="FancyPlotter" min="0" max="100" hScale="1" column="0" rowSpan="1" unit="" vScroll="1" hLines="1">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_0"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_1"/>
+ </display>
+ <display vDistance="30" columnSpan="1" title="Written Data" vLines="0" row="2" labels="1" fontSize="8" showUnit="0" autoRange="1" svgBackground="" manualRange="1" version="1" stacked="0" class="FancyPlotter" min="0" max="75000" hScale="1" column="0" rowSpan="1" unit="" vScroll="0" hLines="1">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="disk/sda_(8:0)/Rate/wblk"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="disk/sda_(8:0)/Rate/rblk"/>
+ </display>
+</WorkSheet>
