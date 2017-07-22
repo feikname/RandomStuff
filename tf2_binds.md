@@ -22,4 +22,5 @@ bind KP_UPARROW "sm_fp" // Use third-person view (keypad key 9)
 
 bind / "say ( ͡° ͜ʖ ͡°)"
 bind \ "say ¯\_(ツ)_/¯"
+bind - "sm_me FFFFFF: FF0000aFF7F00rFFFF00cFF0000oFF7F00-FFFF00i0000FFr4B0082i8F00FFs 000000na sua bunda" // arco-iris na sua bunda
 ```
